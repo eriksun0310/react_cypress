@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -9,8 +7,6 @@ function App() {
   // 顯示count
   const [showCount, setShowCount] = useState(false);
 
-  // 顯示列表
-  const [list, setList] = useState([])
   return (
     <>
       {showCount ? (
