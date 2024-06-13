@@ -1,6 +1,13 @@
-# 在原有的專案中引入 Cypress 流程
+# 在原有的專案中引入 Cypress 測試流程
 
-1. npm i cypress --save-dev 
+
+>Cypress </br>
+提供了內建的自動等待機制和鍊式調用，使得測試程式碼更加簡潔和同步化。 Cypress 會在每個指令執行前自動等待條件滿足（例如元素出現、網路請求完成等），因此不需要明確使用 await。
+
+</br>
+
+> run 測試專案
+1. npm i cypress --save-dev (下載 cypress)
 
 2. npm run dev (啟動本地伺服器)
 
